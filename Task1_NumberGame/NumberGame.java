@@ -12,7 +12,7 @@ public class NumberGame {
         boolean playAgain = true;
 
         System.out.println("====================================");
-        System.out.println("     🎮 NUMBER GUESSING GAME 🎮");
+        System.out.println("     NUMBER GUESSING GAME");
         System.out.println("====================================");
 
         while (playAgain) {
@@ -21,19 +21,19 @@ public class NumberGame {
             int attempts = 5;
             boolean guessedCorrectly = false;
 
-            System.out.println("\n🔢 I have selected a number between 1 and 100.");
-            System.out.println("🧠 You have only 5 attempts to guess it!");
+            System.out.println("\nI have selected a number between 1 and 100.");
+            System.out.println("You have only 5 attempts to guess it!");
 
             for (int i = 1; i <= attempts; i++) {
 
                 System.out.println("\n------------------------------------");
-                System.out.print("👉 Enter your guess: ");
+                System.out.print("Enter your guess: ");
 
                 int guess;
 
                 // Input Validation
                 while (!sc.hasNextInt()) {
-                    System.out.print("❌ Invalid input! Enter a number: ");
+                    System.out.print("Invalid input! Enter a number: ");
                     sc.next();
                 }
 
@@ -42,8 +42,8 @@ public class NumberGame {
                 // Check Guess
                 if (guess == randomNumber) {
 
-                    System.out.println("🎉 Correct! You guessed the number!");
-                    System.out.println("🏆 You won this round!");
+                    System.out.println("Correct! You guessed the number!");
+                    System.out.println("You won this round!");
 
                     totalScore += (attempts - i + 1) * 10;
 
@@ -52,25 +52,25 @@ public class NumberGame {
 
                 } else if (guess < randomNumber) {
 
-                    System.out.println("📉 Too LOW!");
+                    System.out.println("Too LOW!");
 
                 } else {
 
-                    System.out.println("📈 Too HIGH!");
+                    System.out.println("Too HIGH!");
                 }
 
-                System.out.println("❤️ Attempts left: " + (attempts - i));
+                System.out.println("Attempts left: " + (attempts - i));
             }
 
             // If user loses
             if (!guessedCorrectly) {
 
-                System.out.println("\n💀 You lost this round!");
-                System.out.println("🔐 The correct number was: " + randomNumber);
+                System.out.println("\nYou lost this round!");
+                System.out.println("The correct number was: " + randomNumber);
             }
 
             // Display Score
-            System.out.println("\n⭐ Current Score: " + totalScore);
+            System.out.println("\nCurrent Score: " + totalScore);
 
             // Play Again Option
             System.out.println("\nDo you want to play again?");
@@ -85,8 +85,8 @@ public class NumberGame {
 
         // Final Message
         System.out.println("\n====================================");
-        System.out.println(" 🎯 FINAL SCORE: " + totalScore);
-        System.out.println(" 🙌 Thanks for playing!");
+        System.out.println("FINAL SCORE: " + totalScore);
+        System.out.println("Thanks for playing!");
         System.out.println("====================================");
 
         sc.close();
