@@ -14,8 +14,6 @@ This repository contains all the tasks and projects completed during my internsh
 
 ## Athang Gohane
 - Java Development Intern at CodSoft
-- Passionate about Java Programming & Software Development
-- Learning Git, GitHub, and Project Development
 
 GitHub Profile:  
 https://github.com/athanggohane2347-jpg
