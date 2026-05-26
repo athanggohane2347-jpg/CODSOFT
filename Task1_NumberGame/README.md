@@ -1,28 +1,82 @@
-# Number Game
+# CODSOFT Java Development Internship
 
-This is Task 1 of my Java Development Internship at CodSoft.
+![Java](https://img.shields.io/badge/Language-Java-orange)
+![VS Code](https://img.shields.io/badge/Editor-VS%20Code-blue)
+![GitHub](https://img.shields.io/badge/Platform-GitHub-black)
+![Status](https://img.shields.io/badge/Internship-Completed-success)
 
-## Features
+Welcome to my Java Development Internship repository for CodSoft.  
+This repository contains all the tasks and projects completed during my internship journey.
+
+---
+
+# 👨‍💻 About Me
+
+## Athang Gohane
+- Java Development Intern at CodSoft
+- Passionate about Java Programming & Software Development
+- Learning Git, GitHub, and Project Development
+
+GitHub Profile:  
+https://github.com/athanggohane2347-jpg
+
+---
+
+# 📚 Internship Details
+
+- Internship Role: Java Development Intern
+- Organization: CodSoft
+- Repository Name: CODSOFT
+- Internship Tasks: Java Console-Based Applications
+
+---
+
+# 🚀 Tasks Completed
+
+## 🎮 Task 1 - Number Guessing Game
+
+A console-based Java game where the user guesses a randomly generated number within limited attempts.
+
+### ✨ Features
 - Random number generation
-- User guessing system
-- Too High / Too Low hints
-- Limited attempts
-- Multiple rounds
+- Multiple attempts
 - Score tracking
+- Multiple rounds
 - Input validation
 - Interactive console UI
 
-## Technologies Used
+---
+
+# 📋 Features Overview
+
+| Feature | Status |
+|---------|---------|
+| Random Number Generation | ✅ |
+| Multiple Attempts | ✅ |
+| Score Tracking | ✅ |
+| Multiple Rounds | ✅ |
+| Input Validation | ✅ |
+| Interactive Console UI | ✅ |
+
+---
+
+# 🛠 Technologies Used
+
 - Java
 - VS Code
+- Git
+- GitHub
 
-## How to Run
+---
 
-Compile:
-javac NumberGame.java
+# 📁 Folder Structure
 
-Run:
-java NumberGame
-
-## Author
-Athang Gohane
+```bash
+CODSOFT
+│
+├── README.md
+│
+└── Task1_NumberGame
+    │
+    ├── NumberGame.java
+    └── README.md
