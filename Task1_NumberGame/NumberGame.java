@@ -11,25 +11,25 @@ public class NumberGame {
         int totalScore = 0;
         boolean keepPlaying = true;
 
-        System.out.println("====================================");
-        System.out.println("  Hey there! Welcome to Number Game");
-        System.out.println("====================================");
+        System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"); 
+        System.out.println("  Welcome to Number Game - Guess the Secret Number!");
+        System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
 
         // Asking player name
-        System.out.print("Before we start, what's your name? ");
+        System.out.print("Before we start, what's your Good name? ");
         String playerName = sc.nextLine();
 
         int bestScore = 0;
 
         while (keepPlaying) {
 
-            System.out.println("\nAlright " + playerName + ", choose your difficulty:");
+            System.out.println("\nAlright " + playerName + ", choose your difficulty Level:");
 
-            System.out.println("1. Easy Mode   (10 tries)");
-            System.out.println("2. Medium Mode (7 tries)");
-            System.out.println("3. Hard Mode   (5 tries)");
+            System.out.println("1. Easy level   (10 tries)");
+            System.out.println("2. Medium level (7 tries)");
+            System.out.println("3. Hard level   (5 tries)");
 
-            System.out.print("Your choice: ");
+            System.out.print(" Your choice is : ");
 
             // Difficulty input validation
             while (!sc.hasNextInt()) {
@@ -42,7 +42,7 @@ public class NumberGame {
 
             while (difficulty < 1 || difficulty > 3) {
 
-                System.out.print("Oops! Pick only 1, 2, or 3: ");
+                System.out.print(" Pick only 1, 2, or 3: ");
                 difficulty = sc.nextInt();
             }
 
@@ -66,7 +66,7 @@ public class NumberGame {
             boolean guessedIt = false;
 
             System.out.println("\nI've picked a secret number between 1 and 100.");
-            System.out.println("Let's see if you can crack it!");
+            System.out.println("Let's see if you can crack it!good luck!");
 
             for (int attempt = 1; attempt <= maxTries; attempt++) {
 
@@ -76,7 +76,7 @@ public class NumberGame {
                 // Guess input validation
                 while (!sc.hasNextInt()) {
 
-                    System.out.print("That doesn't look like a number. Try again: ");
+                    System.out.print("Try again! Please enter a valid number: ");
                     sc.next();
                 }
 
@@ -86,7 +86,7 @@ public class NumberGame {
                 if (guess == secretNumber) {
 
                     System.out.println("\n🎉 Congratulations!");
-                    System.out.println("You guessed the number correctly!");
+                    System.out.println("You guessed correctly!You are a true number detective!");
 
                     int roundPoints = (maxTries - attempt + 1) * 10;
 
@@ -105,22 +105,22 @@ public class NumberGame {
 
                 } else if (guess < secretNumber) {
 
-                    System.out.println("Too low! Try a bigger number.");
+                    System.out.println("Too low! Think bigger number.");
 
                     // Hint system
                     if (secretNumber - guess <= 10) {
 
-                        System.out.println("Hint: You're super close 👀");
+                        System.out.println("Hint: You're close 👀");
                     }
 
                 } else {
 
-                    System.out.println("Too high! Try a smaller number.");
+                    System.out.println("Too high! Think smaller number.");
 
                     // Hint system
                     if (guess - secretNumber <= 10) {
 
-                        System.out.println("Hint: You're super close 👀");
+                        System.out.println("Hint for you : you're close 👀 !");
                     }
                 }
 
@@ -130,18 +130,18 @@ public class NumberGame {
             // Losing condition
             if (!guessedIt) {
 
-                System.out.println("\nAhhh unlucky this time!");
+                System.out.println("\n Unlucky this time!Try again to crack the code!");
                 System.out.println("The secret number was: " + secretNumber);
             }
 
             // Score section
-            System.out.println("\n====================================");
-            System.out.println("Current Score : " + totalScore);
-            System.out.println("Best Score    : " + bestScore);
-            System.out.println("====================================");
+            System.out.println("\n+++++++++++++++++++++++++++++++++++++++++++");
+            System.out.println(" Your Current Score : " + totalScore);
+            System.out.println(" Your Best Score    : " + bestScore);
+            System.out.println("+++++++++++++++++++++++++++++++++++++++++++");
 
             // Replay option
-            System.out.print("\nWanna play another round? Type YES to continue: ");
+            System.out.print("\nWanna play another round and want to try again?\n Type YES to continue: ");
 
             String answer = sc.next();
 
@@ -150,13 +150,13 @@ public class NumberGame {
 
         // Ending message
         System.out.println("\n====================================");
-        System.out.println("             GAME OVER");
+        System.out.println("         THE GAME IS OVER");
         System.out.println("====================================");
         System.out.println("Player Name : " + playerName);
         System.out.println("Final Score : " + totalScore);
         System.out.println("Best Score  : " + bestScore);
-        System.out.println("Thanks for playing, " + playerName + "!");
-        System.out.println("Catch you next time 😄");
+        System.out.println("Thanks for playing, Please come back again, " + playerName + "!");
+        System.out.println("See you next time!👋");
         System.out.println("====================================");
 
         sc.close();
