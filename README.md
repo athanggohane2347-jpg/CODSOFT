@@ -13,9 +13,10 @@ This repository contains all the tasks and projects completed during my internsh
 # 👨‍💻 About Me
 
 ## Athang Gohane
+
 - Java Development Intern at CodSoft
 
-GitHub Profile:  
+### GitHub Profile
 https://github.com/athanggohane2347-jpg
 
 ---
@@ -33,17 +34,20 @@ https://github.com/athanggohane2347-jpg
 
 ## 🎮 Task 1 - Number Guessing Game
 
-A console-based Java game where the user guesses a randomly generated number within limited attempts.
+An interactive console-based Java game where players guess a randomly generated number with multiple difficulty levels, hints, and score tracking.
 
 ### ✨ Features
-- Difficulty levels
+
+- Difficulty levels (Easy / Medium / Hard)
+- Random number generation
 - Hint system
+- Multiple attempts
 - Score tracking
 - Best score tracking
 - Multiple rounds
 - Input validation
 - Interactive console UI
-- Personalized gameplay
+- Personalized gameplay experience
 
 ---
 
@@ -51,9 +55,12 @@ A console-based Java game where the user guesses a randomly generated number wit
 
 | Feature | Status |
 |---------|---------|
+| Difficulty Levels | ✅ |
 | Random Number Generation | ✅ |
+| Hint System | ✅ |
 | Multiple Attempts | ✅ |
 | Score Tracking | ✅ |
+| Best Score Tracking | ✅ |
 | Multiple Rounds | ✅ |
 | Input Validation | ✅ |
 | Interactive Console UI | ✅ |
