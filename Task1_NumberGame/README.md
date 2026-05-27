@@ -36,12 +36,14 @@ https://github.com/athanggohane2347-jpg
 A console-based Java game where the user guesses a randomly generated number within limited attempts.
 
 ### ✨ Features
-- Random number generation
-- Multiple attempts
+- Difficulty levels
+- Hint system
 - Score tracking
+- Best score tracking
 - Multiple rounds
 - Input validation
 - Interactive console UI
+- Personalized gameplay
 
 ---
 
