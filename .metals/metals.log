@@ -345,3 +345,27 @@ java.nio.file.FileSystemNotFoundException: Provider "class" not installed
 2026.06.02 00:33:54 INFO  no build target found for C:\Users\aarad\Downloads\CODSOFT\Task2_StudentGradeCalculator\StudentGradeCalculator.java. Using fallback presentation compiler.
 2026.06.02 00:33:57 INFO  time: code lens generation in 2.16s
 2026.06.02 00:34:00 INFO  no build target found for C:\Users\aarad\Downloads\CODSOFT\Task2_StudentGradeCalculator\StudentGradeCalculator.java. Using fallback presentation compiler.
+2026.06.02 00:34:02 INFO  no build target found for C:\Users\aarad\Downloads\CODSOFT\Task2_StudentGradeCalculator\StudentGradeCalculator.java. Using fallback presentation compiler.
+2026.06.02 00:34:03 INFO  no build target found for C:\Users\aarad\Downloads\CODSOFT\Task2_StudentGradeCalculator\StudentGradeCalculator.java. Using fallback presentation compiler.
+2026.06.02 00:34:16 INFO  no build target found for C:\Users\aarad\Downloads\CODSOFT\Task2_StudentGradeCalculator\StudentGradeCalculator.java. Using fallback presentation compiler.
+2026.06.02 00:34:16 INFO  no build target found for C:\Users\aarad\Downloads\CODSOFT\Task2_StudentGradeCalculator\StudentGradeCalculator.java. Using fallback presentation compiler.
+2026.06.02 00:34:16 INFO  no build target found for C:\Users\aarad\Downloads\CODSOFT\Task2_StudentGradeCalculator\StudentGradeCalculator.java. Using fallback presentation compiler.
+2026.06.02 00:34:16 INFO  no build target found for C:\Users\aarad\Downloads\CODSOFT\Task2_StudentGradeCalculator\StudentGradeCalculator.java. Using fallback presentation compiler.
+Jun 02, 2026 12:34:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+Jun 02, 2026 12:34:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Jun 02, 2026 12:34:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+2026.06.02 00:34:18 INFO  no build target found for C:\Users\aarad\Downloads\CODSOFT\Task2_StudentGradeCalculator\StudentGradeCalculator.java. Using fallback presentation compiler.
+2026.06.02 00:34:21 INFO  no build target found for C:\Users\aarad\Downloads\CODSOFT\Task2_StudentGradeCalculator\StudentGradeCalculator.java. Using fallback presentation compiler.
+2026.06.02 00:34:22 INFO  no build target found for C:\Users\aarad\Downloads\CODSOFT\Task2_StudentGradeCalculator\StudentGradeCalculator.java. Using fallback presentation compiler.
+2026.06.02 00:34:25 INFO  no build target found for C:\Users\aarad\Downloads\CODSOFT\Task2_StudentGradeCalculator\StudentGradeCalculator.java. Using fallback presentation compiler.
+2026.06.02 00:34:30 INFO  no build target found for C:\Users\aarad\Downloads\CODSOFT\Task2_StudentGradeCalculator\StudentGradeCalculator.java. Using fallback presentation compiler.
+2026.06.02 00:34:32 INFO  no build target found for C:\Users\aarad\Downloads\CODSOFT\Task2_StudentGradeCalculator\StudentGradeCalculator.java. Using fallback presentation compiler.
+Jun 02, 2026 12:34:41 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.06.02 00:34:42 INFO  no build target found for C:\Users\aarad\Downloads\CODSOFT\Task2_StudentGradeCalculator\StudentGradeCalculator.java. Using fallback presentation compiler.
+2026.06.02 00:34:44 INFO  no build target found for C:\Users\aarad\Downloads\CODSOFT\Task2_StudentGradeCalculator\StudentGradeCalculator.java. Using fallback presentation compiler.
+2026.06.02 00:34:53 INFO  no build target found for C:\Users\aarad\Downloads\CODSOFT\Task2_StudentGradeCalculator\StudentGradeCalculator.java. Using fallback presentation compiler.
+2026.06.02 00:34:55 INFO  no build target found for C:\Users\aarad\Downloads\CODSOFT\Task2_StudentGradeCalculator\StudentGradeCalculator.java. Using fallback presentation compiler.
