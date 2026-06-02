@@ -1,35 +1,3 @@
-# CODSOFT Java Development Internship
-
-![Java](https://img.shields.io/badge/Language-Java-orange)
-![VS Code](https://img.shields.io/badge/Editor-VS%20Code-blue)
-![GitHub](https://img.shields.io/badge/Platform-GitHub-black)
-![Status](https://img.shields.io/badge/Internship-Completed-success)
-
-Welcome to my Java Development Internship repository for CodSoft.  
-This repository contains all the tasks and projects completed during my internship journey.
-
----
-
-# 👨‍💻 About Me
-
-## Athang Gohane
-
-- Java Development Intern at CodSoft
-
-### GitHub Profile
-https://github.com/athanggohane2347-jpg
-
----
-
-# 📚 Internship Details
-
-- Internship Role: Java Development Intern
-- Organization: CodSoft
-- Repository Name: CODSOFT
-- Internship Tasks: Java Console-Based Applications
-
----
-
 # 🚀 Tasks Completed
 
 ## 🎮 Task 1 - Number Guessing Game
@@ -51,19 +19,47 @@ An interactive console-based Java game where players guess a randomly generated 
 
 ---
 
+## 📊 Task 2 - Student Grade Calculator
+
+A Java application that calculates student grades based on marks entered for multiple subjects and generates a professional report card.
+
+### ✨ Features
+
+- Student name validation
+- Multiple subject support
+- Total marks calculation
+- Percentage calculation
+- Grade assignment
+- Performance remarks
+- Input validation
+- Professional report card output
+
+---
+
+## 🏧 Task 3 - ATM Interface
+
+A console-based ATM simulation that allows users to check balance, deposit money, withdraw money, and manage transactions through an interactive menu-driven system.
+
+### ✨ Features
+
+- Check account balance
+- Deposit money
+- Withdraw money
+- Transaction counter
+- Input validation
+- Insufficient balance handling
+- Menu-driven interface
+- Banking simulation
+
+---
+
 # 📋 Features Overview
 
-| Feature | Status |
-|---------|---------|
-| Difficulty Levels | ✅ |
-| Random Number Generation | ✅ |
-| Hint System | ✅ |
-| Multiple Attempts | ✅ |
-| Score Tracking | ✅ |
-| Best Score Tracking | ✅ |
-| Multiple Rounds | ✅ |
-| Input Validation | ✅ |
-| Interactive Console UI | ✅ |
+| Project | Status |
+|----------|----------|
+| Number Guessing Game | ✅ Completed |
+| Student Grade Calculator | ✅ Completed |
+| ATM Interface | ✅ Completed |
 
 ---
 
@@ -83,7 +79,14 @@ CODSOFT
 │
 ├── README.md
 │
-└── Task1_NumberGame
-    │
-    ├── NumberGame.java
+├── Task1_NumberGame
+│   ├── NumberGame.java
+│   └── README.md
+│
+├── Task2_StudentGradeCalculator
+│   ├── StudentGradeCalculator.java
+│   └── README.md
+│
+└── Task3_ATMInterface
+    ├── ATMInterface.java
     └── README.md
