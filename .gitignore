@@ -1,3 +1,4 @@
 .metals/
 .reports/
+.vscode/
 *.class
