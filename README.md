@@ -229,10 +229,8 @@ This repository represents my learning journey, project development experience, 
 
 # 📬 Connect With Me
 
-### GitHub
+🌐 GitHub: https://github.com/athanggohane2347-jpg
 
-🔗 GitHub: https://github.com/athanggohane2347-jpg
+💼 LinkedIn: https://www.linkedin.com/in/athang-gohane-34928637a/
 
-### Author
-
-**Athang Gohane**
+👨‍💻 Author: Athang Gohane
